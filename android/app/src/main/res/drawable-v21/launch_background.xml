@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shown until Flutter draws its first frame. Always the dark realm, so the
+     hand-off to the app (dark by default) has no flash. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/fq_night" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launch_crown" />
+    </item>
+</layer-list>
